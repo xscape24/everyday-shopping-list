@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+<header>
+    <img src="images\5230364.png" alt="">
+    <h1>Shopping List</h1>
+</header>
+
+<form action="" id="item-form"><!--for enter item and adding them to list-->
+<div class="form-control">
+    <input type="text" class="form-input" id="item-input" name="item" placeholder="Enter item">
+</div>
+<div class="form-control">
+    <button type="submit" class="btn" input="add-item-btn">
+        <i class="fa-solid fa-plus"></i>Add Item
+    </button>
+</div>
+
+</form>
+<div class="filter"><!--for filtering items you put in-->
+    <input type="text" class="form-input-filter" id="filter" placeholder="Filter Items">
+</div>
+<ul id="item-list" class="items">
+    <li>
+        Apples
+        <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-x"></i>
+        </button>
+    </li>
+     <li>
+        Apples
+        <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-x"></i>
+        </button>
+    </li>
+     <li>
+        Oranges
+        <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-x"></i>
+        </button>
+    </li>
+     <li>
+        Eggs
+        <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-x"></i>
+        </button>
+    </li>
+</ul>
+
+
+
+<button id="clear" class="btn_clear">Clear All</button>
+
+
+    </div>
+   
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </body>
+</html>
